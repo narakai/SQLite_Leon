@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56FF1E289F64C0598707CF6 /* Pods_SQLite_Leon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DA32A2F5511CBAE0EB0575 /* Pods_SQLite_Leon.framework */; };
+		FCA150CC3229A42F94EE88FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15B5B1E234632991E9220 /* LaunchScreen.storyboard */; };
+		FCA154A7BCF8CDF2802B0539 /* YHDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15CEEC4CB84B83B4EE36F /* YHDBManager.swift */; };
+		FCA156E893E94A74C55C143F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA153F0F0131D7703015EB4 /* AppDelegate.swift */; };
+		FCA159E3976C415D36FF6450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15D7BA5B44628C76D2510 /* Main.storyboard */; };
+		FCA15B46428FC903361CCA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA154719619494AA054A4F1 /* ViewController.swift */; };
+		FCA15E5AF317F5F6F60FC74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA15A527F383F260FFC3821 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E3B40D174751B0D44DE9FFF /* Pods-SQLite_Leon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_Leon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQLite_Leon/Pods-SQLite_Leon.debug.xcconfig"; sourceTree = "<group>"; };
+		D8DA32A2F5511CBAE0EB0575 /* Pods_SQLite_Leon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLite_Leon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D87124F33EDCA5465B27E6 /* Pods-SQLite_Leon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_Leon.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQLite_Leon/Pods-SQLite_Leon.release.xcconfig"; sourceTree = "<group>"; };
+		FCA152B981D8204A0CBCCD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA153C97B64F2126204A094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA153F0F0131D7703015EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA154719619494AA054A4F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA1590B01D9C707DD0B5CEC /* SQLite_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA15A527F383F260FFC3821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA15CEEC4CB84B83B4EE36F /* YHDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHDBManager.swift; sourceTree = "<group>"; };
+		FCA15F89A0E810B590322541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA15516C4E4F6107E6753F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56FF1E289F64C0598707CF6 /* Pods_SQLite_Leon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B38B535D90F82CD04ADFEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B40D174751B0D44DE9FFF /* Pods-SQLite_Leon.debug.xcconfig */,
+				E4D87124F33EDCA5465B27E6 /* Pods-SQLite_Leon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFECEC728A35B61B1CB23E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8DA32A2F5511CBAE0EB0575 /* Pods_SQLite_Leon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCA15AFC0E7CDC0DBFE0DA34 /* SQLite_Leon */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15F89A0E810B590322541 /* Info.plist */,
+				FCA15A527F383F260FFC3821 /* Assets.xcassets */,
+				FCA15B5B1E234632991E9220 /* LaunchScreen.storyboard */,
+				FCA153F0F0131D7703015EB4 /* AppDelegate.swift */,
+				FCA15D7BA5B44628C76D2510 /* Main.storyboard */,
+				FCA154719619494AA054A4F1 /* ViewController.swift */,
+				FCA15CEEC4CB84B83B4EE36F /* YHDBManager.swift */,
+			);
+			path = SQLite_Leon;
+			sourceTree = "<group>";
+		};
+		FCA15B74C829211CA54ADA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1590B01D9C707DD0B5CEC /* SQLite_Leon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA15C0CC51E808CED3D65C8 = {
+			isa = PBXGroup;
+			children = (
+				FCA15B74C829211CA54ADA45 /* Products */,
+				FCA15AFC0E7CDC0DBFE0DA34 /* SQLite_Leon */,
+				24B38B535D90F82CD04ADFEC /* Pods */,
+				BFECEC728A35B61B1CB23E87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA15D3C4AD0671071680854 /* SQLite_Leon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA15DB833E9DC14E8F69D92 /* Build configuration list for PBXNativeTarget "SQLite_Leon" */;
+			buildPhases = (
+				58A68D3DB097365607718224 /* [CP] Check Pods Manifest.lock */,
+				FCA158D117B5FD5599B0A06E /* Sources */,
+				FCA15516C4E4F6107E6753F8 /* Frameworks */,
+				FCA15E3A45D4B1885FF75228 /* Resources */,
+				A5C17ADEA7006DFB28792157 /* [CP] Embed Pods Frameworks */,
+				FEDA8F8ABB3068487EB0ACA5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite_Leon;
+			productName = SQLite_Leon;
+			productReference = FCA1590B01D9C707DD0B5CEC /* SQLite_Leon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA15CAF1DAAC61CE28414DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clem;
+				TargetAttributes = {
+					FCA15D3C4AD0671071680854 = {
+						DevelopmentTeam = FCKB72E74L;
+					};
+				};
+			};
+			buildConfigurationList = FCA15BF26946F1CAF8AFBD3A /* Build configuration list for PBXProject "SQLite_Leon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCA15C0CC51E808CED3D65C8;
+			productRefGroup = FCA15B74C829211CA54ADA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA15D3C4AD0671071680854 /* SQLite_Leon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA15E3A45D4B1885FF75228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA15E5AF317F5F6F60FC74F /* Assets.xcassets in Resources */,
+				FCA150CC3229A42F94EE88FA /* LaunchScreen.storyboard in Resources */,
+				FCA159E3976C415D36FF6450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A68D3DB097365607718224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLite_Leon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C17ADEA7006DFB28792157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SQLite_Leon/Pods-SQLite_Leon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQLite_Leon/Pods-SQLite_Leon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDA8F8ABB3068487EB0ACA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQLite_Leon/Pods-SQLite_Leon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA158D117B5FD5599B0A06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA156E893E94A74C55C143F /* AppDelegate.swift in Sources */,
+				FCA15B46428FC903361CCA06 /* ViewController.swift in Sources */,
+				FCA154A7BCF8CDF2802B0539 /* YHDBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA15B5B1E234632991E9220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA152B981D8204A0CBCCD24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA15D7BA5B44628C76D2510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA153C97B64F2126204A094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA155D4606CBF737FED0C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3B40D174751B0D44DE9FFF /* Pods-SQLite_Leon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = SQLite_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.SQLite-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA1585F95C987AF24767F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA158FC34F9C3690961B0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA15FBB0E9ECB33054211DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D87124F33EDCA5465B27E6 /* Pods-SQLite_Leon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = SQLite_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.SQLite-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA15BF26946F1CAF8AFBD3A /* Build configuration list for PBXProject "SQLite_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA1585F95C987AF24767F40 /* Debug */,
+				FCA158FC34F9C3690961B0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA15DB833E9DC14E8F69D92 /* Build configuration list for PBXNativeTarget "SQLite_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA155D4606CBF737FED0C40 /* Debug */,
+				FCA15FBB0E9ECB33054211DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA15CAF1DAAC61CE28414DF /* Project object */;
+}
